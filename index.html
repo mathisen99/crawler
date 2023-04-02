@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Web Crawler by Mathisen</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <h1>Crawler by Mathisen</h1>
+    <form action="/crawl" method="post">
+      <label for="url">URL:</label>
+      <input type="text" id="url" name="url" required>
+      <br>
+      <label for="extensions">What are we looking for ? <b>Example: .jpg,.gif :</b></label>
+      <input type="text" id="extensions" name="extensions" required>
+      <br>
+      <input type="submit" value="Crawl">
+    </form>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Crawl Results</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <h1>Crawl Results</h1>
+    <ul>
+      {{range .}}
+        <li><a href="{{.}}" target="_blank">{{.}}</a></li>
+      {{end}}
+    </ul>
+    <a href="/">Back</a>
+  </body>
+</html>
